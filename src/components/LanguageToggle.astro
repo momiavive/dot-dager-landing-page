@@ -1,0 +1,17 @@
+---
+import Languages from "./icons/Languages.astro";
+
+const currentLocale = Astro.currentLocale;
+const isSpanish = currentLocale === "es";
+console.log("Current locale:", currentLocale)
+const targetPath = isSpanish ? "en" : "es";
+const buttonText = isSpanish ? "Switch to English" : "Cambiar a Español";
+---
+
+<a
+  href={targetPath}
+  class="fixed right-4 top-4 z-50 flex items-center gap-2 rounded-full bg-white/10 px-4 py-2 text-sm text-white backdrop-blur-sm transition hover:bg-white/20"
+>
+  <Languages className="h-4 w-4" />
+  <span>{buttonText}</span>
+</a>

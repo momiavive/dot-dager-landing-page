@@ -1,0 +1,18 @@
+{
+    "$schema": "https://inlang.com/schema/inlang-message-format",
+    "heroTitle": "Dot Dager",
+    "heroSubtitle": "Content Creator • Developer • Philosophy Enthusiast",
+    "heroScroll": "Scroll to explore",
+    "aboutTitle": "About Me",
+    "aboutDescription": "Hey there! I'm a content creator with a passion for programming, philosophy, and the arts. When I'm not coding or creating content, you'll find me playing guitar, hanging out with cats, or diving deep into philosophical discussions (possibly while enjoying some pickles).",
+    "aboutCardProgrammingTitle": "Programming",
+    "aboutCardProgrammingDescription": "Crafting digital experiences through code",
+    "aboutCardMusicTitle": "Music",
+    "aboutCardMusicDescription": "Guitar enthusiast and melody maker",
+    "aboutCardCatsTitle": "Cat Lover",
+    "aboutCardCatsDescription": "Feline friend and purr enthusiast",
+    "aboutCardPhilosophyTitle": "Philosophy",
+    "aboutCardPhilosophyDescription": "Exploring life's deeper questions",
+    "footerRights": "All rights reserved.",
+    "goToLanguage": "Go to English"
+}

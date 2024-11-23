@@ -1,0 +1,54 @@
+---
+import * as m from "@/paraglide/messages";
+import Twitter from "./icons/Twitter.astro";
+import Github from "./icons/Github.astro";
+import Youtube from "./icons/Youtube.astro";
+import BookOpen from "./icons/BookOpen.astro";
+import Cat from "./icons/Cat.astro";
+import Guitar from "./icons/Guitar.astro";
+import Code from "./icons/Code.astro";
+---
+<section class="mx-auto max-w-5xl px-4 py-24">
+  <div class="grid gap-12 md:grid-cols-2">
+    <div class="space-y-6">
+      <h2 class="font-serif text-3xl font-bold text-zinc-900">{m.aboutTitle()}</h2>
+      <p class="text-lg leading-relaxed text-zinc-700">
+        {m.aboutDescription()}
+      </p>
+      <div class="flex gap-4">
+        <a href="#" class="rounded-full bg-zinc-900 p-2 text-white transition hover:bg-zinc-700">
+          <Twitter class="h-5 w-5" />
+        </a>
+        <a href="#" class="rounded-full bg-zinc-900 p-2 text-white transition hover:bg-zinc-700">
+          <Github class="h-5 w-5" />
+        </a>
+        <a href="#" class="rounded-full bg-zinc-900 p-2 text-white transition hover:bg-zinc-700">
+          <Youtube class="h-5 w-5" />
+        </a>
+      </div>
+    </div>
+    
+    <div class="grid grid-cols-2 gap-4">
+      <div class="rounded-xl bg-white p-6 shadow-sm transition hover:shadow-md">
+        <Code class="mb-4 h-8 w-8 text-purple-600" />
+        <h3 class="mb-2 font-semibold">{m.aboutCardProgrammingTitle()}</h3>
+        <p class="text-sm text-zinc-600">{m.aboutCardProgrammingDescription()}</p>
+      </div>
+      <div class="rounded-xl bg-white p-6 shadow-sm transition hover:shadow-md">
+        <Guitar class="mb-4 h-8 w-8 text-indigo-600" />
+        <h3 class="mb-2 font-semibold">{m.aboutCardMusicTitle()}</h3>
+        <p class="text-sm text-zinc-600">{m.aboutCardMusicDescription()}</p>
+      </div>
+      <div class="rounded-xl bg-white p-6 shadow-sm transition hover:shadow-md">
+        <Cat class="mb-4 h-8 w-8 text-rose-600" />
+        <h3 class="mb-2 font-semibold">{m.aboutCardCatsTitle()}</h3>
+        <p class="text-sm text-zinc-600">{m.aboutCardCatsDescription()}</p>
+      </div>
+      <div class="rounded-xl bg-white p-6 shadow-sm transition hover:shadow-md">
+        <BookOpen class="mb-4 h-8 w-8 text-emerald-600" />
+        <h3 class="mb-2 font-semibold">{m.aboutCardPhilosophyTitle()}</h3>
+        <p class="text-sm text-zinc-600">{m.aboutCardPhilosophyDescription()}</p>
+      </div>
+    </div>
+  </div>
+</section>

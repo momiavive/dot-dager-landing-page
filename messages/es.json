@@ -1,0 +1,18 @@
+{
+    "$schema": "https://inlang.com/schema/inlang-message-format",
+    "heroTitle": "Dot Dager",
+    "heroSubtitle": "Creador de Contenido • Desarrollador • Entusiasta de la Filosofía",
+    "heroScroll": "Desliza para explorar",
+    "aboutTitle": "Sobre Mí",
+    "aboutDescription": "¡Hola! Soy un creador de contenido apasionado por la programación, la filosofía y las artes. Cuando no estoy programando o creando contenido, me encontrarás tocando la guitarra, pasando tiempo con gatos o inmerso en discusiones filosóficas (posiblemente mientras disfruto de algunos pepinillos).",
+    "aboutCardProgrammingTitle": "Programación",
+    "aboutCardProgrammingDescription": "Creando experiencias digitales a través del código",
+    "aboutCardMusicTitle": "Música",
+    "aboutCardMusicDescription": "Entusiasta de la guitarra y creador de melodías",
+    "aboutCardCatsTitle": "Amante de los Gatos",
+    "aboutCardCatsDescription": "Amigo felino y entusiasta de los ronroneos",
+    "aboutCardPhilosophyTitle": "Filosofía",
+    "aboutCardPhilosophyDescription": "Explorando las preguntas profundas de la vida",
+    "footerRights": "Todos los derechos reservados.",
+    "goToLanguage": "Ir a Español"
+}

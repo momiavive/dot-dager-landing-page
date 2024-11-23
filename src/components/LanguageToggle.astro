@@ -3,7 +3,6 @@ import Languages from "./icons/Languages.astro";
 
 const currentLocale = Astro.currentLocale;
 const isSpanish = currentLocale === "es";
-console.log("Current locale:", currentLocale)
 const targetPath = isSpanish ? "en" : "es";
 const buttonText = isSpanish ? "Switch to English" : "Cambiar a Español";
 ---

@@ -5,6 +5,7 @@ import { availableLanguageTags } from '../../paraglide/runtime';
 import About from "@/components/About.astro";
 import Footer from "@/components/Footer.astro";
 import LanguageToggle from "@/components/LanguageToggle.astro";
+import LumberJackTrigger from "@/components/LumberJackTrigger.astro";
 
 // Use this is you want to statically generate pages (output: 'server' in astro.config.mjs)
 export function getStaticPaths() {
@@ -14,6 +15,7 @@ export function getStaticPaths() {
 ---
 
 <Layout>
+  <LumberJackTrigger />
   <LanguageToggle />
   <Hero />
   <About />

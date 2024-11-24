@@ -1,0 +1,11 @@
+---
+import Back from "./icons/Back.astro";
+
+const { href, className } = Astro.props;
+---
+<a
+  href={href}
+  class=`${className} flex items-center gap-2 rounded-full bg-white/10 px-4 py-2 text-sm text-white backdrop-blur-sm transition hover:bg-white/20`
+>
+  <Back class="size-4" />
+</a>

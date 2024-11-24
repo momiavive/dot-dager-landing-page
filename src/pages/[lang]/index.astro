@@ -8,6 +8,8 @@ import LanguageToggle from "@/components/LanguageToggle.astro";
 import LumberJackTrigger from "@/components/LumberJackTrigger.astro";
 
 // Use this is you want to statically generate pages (output: 'server' in astro.config.mjs)
+export const prerender = true;
+
 export function getStaticPaths() {
   return availableLanguageTags.map((lang) => ({ params: { lang } }));
 }

@@ -8,7 +8,6 @@ import {
 export const onRequest = defineMiddleware((context, next) => {
   // Get lang from url param
   const lang = context.params.lang;
-  console.log("Lang: ", lang);
   // If changed
   if (lang !== languageTag()) {
     setLanguageTag(lang as AvailableLanguageTag);
